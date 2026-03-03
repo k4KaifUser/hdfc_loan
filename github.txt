@@ -62,3 +62,17 @@ Git Architecture
 
 4) Central Repo (Remote repo)
 Working Tree → git add → Staging Area → git commit → Local Repo → git push → Remote Repo
+# git init : Initialize working tree
+
+git status : display working tree status (staged and un-staged)
+
+git add : Add file(s) to staging area
+    git add <file-name>
+    git add .
+
+git commit : Commit staged files to local repo
+    git commit -m <msg>
+
+git push : publish local commits to central repo
+
+git restore : to unstage + to discard file changes
