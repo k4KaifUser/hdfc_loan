@@ -78,3 +78,6 @@ git push : publish local commits to central repo
 git restore : to unstage + to discard file changes
 
 git clone : it is used to download the central repo to local machine / Get latest code from remote repo and update your local branch.
+
+.gitignore : it is used to ignore the files which you dont waant to get track/commit.
+
