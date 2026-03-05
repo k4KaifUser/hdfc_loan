@@ -76,3 +76,5 @@ git commit : Commit staged files to local repo
 git push : publish local commits to central repo
 
 git restore : to unstage + to discard file changes
+
+git clone : it is used to download the central repo to local machine
