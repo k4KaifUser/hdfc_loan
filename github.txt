@@ -79,6 +79,28 @@ git restore : to unstage + to discard file changes
 
 ===================================================================================
 .gitignore : it is used to ignore the files which you dont waant to get track/commit.
+
+1️⃣ Create .gitignore file
+Inside your project folder create a file named:
+.gitignore
+
+2️⃣ Add files or folders to ignore
+Example:
+# Ignore log files
+*.log
+# Ignore compiled files
+*.class
+# Ignore node modules folder
+node_modules/
+# Ignore environment files
+.env
+# Ignore build folder
+build/
+
+3️⃣ Commit .gitignore
+git add .gitignore
+git commit -m "added gitignore"
+
 ===================================================================================
 
 
