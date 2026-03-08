@@ -14,13 +14,8 @@ public class EvenNumbers {
         for(int i = 1; i <= 10; i++) {
             if(i % 2 == 0) {
                 System.out.println(i);
-
-<<<<<<< HEAD
             int j = 20;
-
-=======
-int i = 10:
->>>>>>> 25d29effd3d0db098c461ce945ef8358510dec23
+int i = 10;
             }
         }
 
