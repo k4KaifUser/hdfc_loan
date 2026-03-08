@@ -17,7 +17,11 @@ public class EvenNumbers {
             int j = 20;
 int i = 10;
 
+<<<<<<< HEAD
 Boolean status = true;
+=======
+boolean status = false;
+>>>>>>> 8e4d22d3e2bc34964551d7cb0f272757c477b47d
             }
         }
 
