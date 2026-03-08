@@ -16,6 +16,8 @@ public class EvenNumbers {
                 System.out.println(i);
             int j = 20;
 int i = 10;
+
+boolean status = false;
             }
         }
 
