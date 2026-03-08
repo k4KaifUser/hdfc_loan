@@ -75,9 +75,32 @@ git commit : Commit staged files to local repo
 
 git push : publish local commits to central repo
 
-git restore : to unstage + to discard file changes
+git restore : to unstage + to discard file changes  
 
+===================================================================================
+.gitignore : it is used to ignore the files which you dont waant to get track/commit.
+===================================================================================
+
+
+========================================================================================================================================
 git clone : it is used to download the central repo to local machine / Get latest code from remote repo and update your local branch.
 
-.gitignore : it is used to ignore the files which you dont waant to get track/commit.
+git clone : to download central repo to local
+
+git clone <repo-url>
+
+Ex: https://github.com/ashokitschool/
+01_products_api.git
+=========================================================================================================================================
+
+git pull : download only latest changes from central
+repo to local repo
+
+Note: When we use git pull command there is a chance
+of getting conflicts.
+
+Note : If 2 developers modify same file and same line
+of data then conflict will occur. We need to resolved
+and we need to commit and push without conflicts.
+ 
 
